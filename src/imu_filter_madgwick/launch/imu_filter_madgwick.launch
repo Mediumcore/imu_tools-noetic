@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="imu_filter_madgwick" name="imu_filter_madgwick" type="imu_filter_node" output="screen">
+    <param name="use_mag" value="true" />
+    <param name="use_magnetic_field_msg_" value="true" />
+    <!-- <param name="gain" value="0.7" /> -->
+  </node>
+</launch> 
